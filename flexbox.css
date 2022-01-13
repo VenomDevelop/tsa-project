@@ -1,0 +1,25 @@
+.row-spacebetween {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row-spacearound {
+  display: flex;
+  justify-content: space-around;
+}
+
+.row-center {
+  display: flex;
+  justify-content: center;
+}
+
+.vertical-align {
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .row-spacebetween, .row-spacearound, .row-center {
+    flex-direction: column;
+    align-items: center;
+  }
+}
