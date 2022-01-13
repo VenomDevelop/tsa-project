@@ -1,0 +1,29 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; font-family: 'Open Sans', sans-serif;
+}
+
+.nav {
+  background-color: #E7717D;
+  color: white;
+  padding: 0px 25px;
+}
+
+.nav a {
+  color: white;
+}
+
+.hero {
+  background-image: url("beach-resort-1395730.jpg");
+  height: 300px;
+}
+
+.contact{
+  width: 725px; height: 350px;
+}
+
+.hero2 {
+  background-image: url("beach-resort-1395730.jpg");
+  height: 500px;
+}
